@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Norse;
+    src: url(Norse-Bold.otf);
+}
+
+/********************************
+ *      Side Banner Styles      *
+ ********************************/
+
+body {
+    display: flex;
+    margin: 0px;
+}
+div.side-container {
+    width: 35%;
+    height: 100vh;
+    background: center/350% no-repeat url("image.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+div.logo-container {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 80%;
+    background: #00000070;
+    font-family: Norse, serif, mono-space;
+    color: #ffffff;
+    font-size: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.logo-container img {
+    height: 80%;
+}
+div.logo-container span {
+    padding-left: 10px;
+}
+div.side-container > span {
+    color: #ffffff;
+    align-self: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 0.7rem;
+}
+
+/*********************************
+ *      Form Content Styles      *
+ *********************************/
+
