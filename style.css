@@ -12,7 +12,7 @@ body {
     margin: 0px;
 }
 div.side-container {
-    width: 35%;
+    width: 35vw;
     height: 100vh;
     background: center/350% no-repeat url("image.jpg");
     display: flex;
@@ -51,3 +51,69 @@ div.side-container > span {
  *      Form Content Styles      *
  *********************************/
 
+div.main-content-container {
+    height: 50%;
+    margin: 0px 0px;
+    padding: 5px;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.pretext {
+    width: 50%;
+    margin-left: 40px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+div.form-container {
+    box-shadow: 0px 10px 60px -40px  rgb(0, 0, 0);
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+}
+div.form-container > div{
+    display: flex;
+    margin-top: -20px;
+}
+div.form-container > div > p {
+    padding: 0px 80px 0px 0px;
+}
+form > button {
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 15px 40px;
+    background-color: #764e6f;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Arial, Hevetica, sans-serif;
+    box-shadow: 5px 5px 10px -5px rgb(0, 0, 0);
+}
+form > button:hover {
+    box-shadow: 5px 5px 10px -5px rgb(0, 0, 0) inset;
+}
+p.login-link {
+    margin-left: 40px;
+}
+div.form-container > h3 {
+    font-size: 1.5rem;
+}
+form label {
+    font-family: monospace;
+    font-size: 0.65rem;
+}
+form input {
+    border: solid #E5E7EB 1px;
+}
+form input:focus {
+    border: solid #73b2ff 1px;
+    box-shadow: 8px 8px 25px -8px rgb(0, 0, 0);
+}
+form input:invalid {
+    border: solid red 1px;
+}
+p a {
+    text-decoration: none;
+    color: #764e6f;
+}
